@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1360px) {
+    .btn{
+        font-size: 12px !important;
+    padding: 10px !important;
+    }
+    .mdi::before{
+        font-size: 12px !important;
+    }
+  }
+  @media only screen and (max-width: 1125px) {
+    .btn{
+        font-size: 8px !important;
+        padding: 6px !important;
+    }
+    .mdi::before{
+        font-size: 10px !important;
+    }
+    th,td,tr{
+        font-size: 12px !important;
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-size: 14px !important;
+    }
+  }
+
+  @media only screen and (max-width: 1125px) {
+    .main-panel {
+        width: 100%;
+    }
+    .sidebar-offcanvas{
+        width: 0 !important;
+    }
+    .sidebar-offcanvas.active{
+        width: 40% !important;
+    }
+    }
+    @media only screen and (max-width: 650px) {
+        .btn{
+            font-size: 8px !important;
+            padding: 4px !important;
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+        .btn i{
+
+            font-size: 6px !important;
+            padding: 2px !important;
+        }
+        .mdi::before{
+            font-size: 15px !important;
+        }
+        th,td,tr{
+            font-size: 8px !important;
+
+        }
+        h1,h2,h3,h4,h5,h6{
+            font-size: 12px !important;
+        }
+        .sidebar-offcanvas.active {
+            width: 100% !important;
+        }
+        .sidebar .nav .nav-item .nav-link .menu-title {
+            font-size: 10px;
+        }
+        .sidebar .nav:not(.sub-menu) > .nav-item > .nav-link {
+            padding-left: 10px;
+        }
+        .sidebar .nav .nav-item.nav-category {
+            font-size: 10px;
+            padding: 10px 0px 0px 0px;
+            margin-top: 0;
+        }
+        .sidebar-offcanvas {
+            position: fixed;
+            max-height: calc(100vh - 47px);
+            top: 70px;
+        }
+        .sidebar .nav .nav-item .nav-link{
+            padding: 5px 20px 5px 25px;
+        }
+        .sidebar .nav .nav-item.nav-category{
+            margin: 0 10px;
+        }
+        .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link i{
+            font-size: 15px !important;
+        }
+        .navbar-toggler span::before{
+            font-size: 15px !important;
+        }
+        .filtration .flex{
+            display: block;
+        }
+        .filtration .flex > div{
+            width: 100%;
+        }
+        .navbar .navbar-brand-wrapper{
+            display: none !important;
+        }
+        .navbar .navbar-menu-wrapper{
+            width: 100%;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-size: 10px !important;
+        }
+        .table th, .table td{
+            padding: 0 !important;
+        }
+        .card .card-body {
+            padding: 10px 10px;
+        }
+        .content-wrapper {
+            padding: 5px;
+        }
+        .table-header {
+            margin-bottom: 10px;
+        }
+        .d-table button, .d-table a.btn{
+            font-size: 6px !important;
+        }
+        .table thead th{
+            padding: 10px 0 !important;
+        }
+      }
+
+
